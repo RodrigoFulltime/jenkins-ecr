@@ -1,10 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Cor de fundo rosa claro */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff; /* Cor de fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: #007bff;
+    color: #e91e63; /* Cor rosa */
+}
+
+img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+p {
+    color: #333;
+}
+
+.response-buttons {
+    margin-top: 20px;
+}
+
+.yes-button, .no-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.yes-button {
+    background-color: #4caf50; /* Cor verde */
+}
+
+.no-button {
+    background-color: #f44336; /* Cor vermelha */
 }
